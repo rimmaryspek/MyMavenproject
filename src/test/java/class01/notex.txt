@@ -4,25 +4,19 @@
  Xml is a file format just like text, json, HTML e.tc
 
  <project>
-     <message>"heelo world"</message>
+     <message>"hello world"</message>
  </project>
-
 
  an example for json :
 
  {
     "project":"project1",
     "message":"hello world"
-
  }
 
  a text file:
 
  the project is project1 and the message is hello world;
-
-
-
-
 
 POM.xml:
 
@@ -31,12 +25,9 @@ POM.xml:
 
    <dependencies>
 
-
    </dependencies>
 
-
 </project>
-
 
 1.Maven project:
 simply click on new project
@@ -57,8 +48,6 @@ and it is there for you to use.
             <version>5.1.0</version>
         </dependency>
     </dependencies>
-
-
 --------------------------------------------testNG---------------------------
 
 Test is a tool,
@@ -83,8 +72,6 @@ e.g public void atestcase(); --> will execute first
     the geeen tick indicates that test case has passed
     the red sign idnicates the test case has failed
 
-
-
 @BeforeMethod annotation:
 
 the code under this annotation is going to execute everytime before each and every @Test execution is made
@@ -94,9 +81,6 @@ the code under this annotation is going to execute everytime before each and eve
 @AfterMethod annotation :
 
 the code under this annotation is going to execute after every test Method (after every @TEST)
-
-
-
 ----------------------------------------------Revision---------------------------------------
 1.What is xml?
  Xml is file format
@@ -129,8 +113,6 @@ new Project--> build system (maven)
 
 </dependencies>
 
-
-
 5.What are the annotations?
 
 a.@Test --> all the test cases are written in this annotation
@@ -148,8 +130,6 @@ c. @AfterMethod -->  this will run after each @Test annotaion  -->Post--conditio
 7.Depends on what is the purpose?
 
 @Test(dependsOnMethods ={"login"})   --> this test case depends on login and will be only executed if Login  "Passes";
-
-
 
 8.Priority?
 
